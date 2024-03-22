@@ -1,0 +1,146 @@
+.combo-container {
+  width: 100%;
+  margin: 0px;
+  padding: 20px;
+}
+
+.combo-header {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.combo-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.combo-header p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.weight-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.weight-input label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.weight-input input {
+  padding: 5px;
+  font-size: 16px;
+  width: 200px;
+  height: 20px;
+  margin-top: 20px;
+}
+p {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.calculate-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 190px;
+}
+
+.calculate-button:hover {
+  background-color: #45a049;
+}
+
+.required-protein {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.filtered-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.product-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-item.active {
+  background-color: #e4f2ff;
+}
+
+.product-item img {
+  width: 150px;
+  max-height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-item p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.add-to-cart-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  background-color: #0069d9;
+}
+
+.cart {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logged-in-user {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
+button {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  /* margin-left: 70px; */
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.combo-h2 {
+  text-align: center;
+  margin-bottom: 50px;
+
+  color: #fff;
+  background-color: #333;
+  width: 200px;
+  margin: 40px auto;
+}

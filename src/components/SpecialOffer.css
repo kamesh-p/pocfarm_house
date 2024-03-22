@@ -1,0 +1,139 @@
+.Special-offers-container {
+  margin-top: 70px;
+}
+.subscription-form {
+  display: flex;
+  flex-direction: column;
+}
+.Special-offer-milk-container {
+  width: 60%;
+}
+.subscription-section {
+  display: flex;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.subscription-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subscription-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.subscription-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.subscription-form label {
+  margin-right: 10px;
+}
+
+.subscription-form input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.subscribe-btn {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscription-offers {
+  margin-top: 20px;
+  margin-left: 100px;
+  /* border: 1px solid rgb(165, 165, 165); */
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 30px;
+  height: 280px;
+  background-color: #e9e9e9;
+}
+
+.subscription-offers h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subscription-offers ul {
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 0px;
+}
+
+.subscription-offers li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+/*  */
+.countdown-bar {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-item {
+  margin: 0 10px;
+}
+
+.countdown-value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.countdown-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+p {
+  margin-top: 10px;
+}
+.discount-price {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #888;
+}
+
+.original-price {
+  text-decoration: line-through;
+  margin-right: 10px;
+  color: red;
+}
+
+.discounted-price {
+  color: green;
+  font-weight: bold;
+}
+
+.total-price-discount {
+  color: black;
+}
+.total-price-discount-og {
+  margin-left: 60px;
+  color: black;
+}
+.li-special-offer-timeout {
+  color: green !important;
+  /* text-shadow: #888 !important; */
+  font-weight: bold;
+}
